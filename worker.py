@@ -20,7 +20,7 @@ class Worker():
         self.s = s
 
     def __str__(self) -> str:
-        return self.s
+        return f'Worker({self.s})'
 
     def __repr__(self) -> str:
         return f'Worker({self.s})'

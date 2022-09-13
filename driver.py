@@ -11,7 +11,7 @@ def testStringLib(inputStr):
     s = inputStr
     print(f's = {s}')
     print(f'Reverse s = {reverseStr(s)}')
-    print(f'Does s contain Moth? {containsWord(s, "are")}')
+    print(f'Does s contain "are"? {containsWord(s, "are")}')
     print(f'Is s a pailindrome? {isPalindrome(s)}')
     print(f'Upper case s = {upperCaseStr(s)}')
     return
@@ -21,7 +21,7 @@ def testWorkerClass(inputStr):
     w = Worker(inputStr)
     print(f'w = {w}')
     print(f'Reverse w = {w.reverseStr()}')
-    print(f'Does w contain Fat? {w.containsWord("ple")}')
+    print(f'Does w contain "ple"? {w.containsWord("ple")}')
     print(f'Is w a palindrome? {w.isPalindrome()}')
     print(f'Upper case w = {w.upperCaseStr()}')
     return
